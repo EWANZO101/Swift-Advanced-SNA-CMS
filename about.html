@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swift Advanced SNA CMS System Plan</title>
+    <title>Swift Advanced SNA CMS Management System Plan</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-900 text-white">
@@ -29,13 +29,31 @@
         <section class="mb-8">
             <h2 class="text-2xl font-semibold mb-4">Key Features</h2>
             <ul class="list-disc ml-6 space-y-2">
-                <li><strong>Roster Management:</strong> Add, edit, and track officers’ ranks, certifications, and departments.</li>
-                <li><strong>Incident and Case Reports:</strong> Log incidents, assign officers, and sync with SnailyCAD.</li>
-                <li><strong>Patrol Logs:</strong> Record patrols, stops, calls, and citations with detailed reports.</li>
-                <li><strong>Vehicle and Equipment Tracking:</strong> Manage fleet assignments, maintenance logs, and issued equipment.</li>
-                <li><strong>Training Records:</strong> Monitor recruit progress, FTO assignments, and certifications.</li>
-                <li><strong>Real-Time Updates:</strong> Live status indicators for officer activity and incidents.</li>
-                <li><strong>Analytics and Reports:</strong> Visualize trends, activity summaries, and department performance.</li>
+                <li><strong>Roster Management:</strong> Add/Edit/Delete officers. Track ranks, badges, and department assignments. View promotions and certifications. Integration with SnailyCAD to fetch and sync officer details.</li>
+                <li><strong>Training Records:</strong> Log training sessions for new recruits. Assign Field Training Officers (FTOs). Track progress and evaluation scores. Certification tracking for specialized units (e.g., SWAT, K9).</li>
+                <li><strong>Incident and Case Reports:</strong> Create, view, and edit incident reports. Sync incident logs from SnailyCAD. Assign officers to cases. Track case statuses (Open, Closed, Pending).</li>
+                <li><strong>Vehicle and Equipment Management:</strong> Log fleet details (unit number, plate, assignment). Track equipment issued to officers. Maintenance logs for vehicles. Integration with SnailyCAD for vehicle management.</li>
+                <li><strong>Patrol Logs:</strong> Record daily activity reports (DARs). Track stops, calls responded to, and citations. Assign patrol areas/zones. Sync patrol data with SnailyCAD.</li>
+                <li><strong>Attendance and Activity Tracking:</strong> Log attendance for department meetings. Track officer activity levels (patrol hours, reports filed). Manage inactive officers and leave requests.</li>
+                <li><strong>Real-time Status Updates:</strong> Live status indicators for active/inactive officers. Monitor patrol assignments and locations (via SnailyCAD if supported). Use WebSockets or polling for real-time updates.</li>
+                <li><strong>Penal Codes and SOP:</strong> Reference penal codes directly on the website. Include Standard Operating Procedures (SOPs). Customizable for server-specific rules.</li>
+                <li><strong>Public Complaint System:</strong> Allow civilians to file complaints against officers. Internal tracking for complaint resolution. Integration with SnailyCAD for case linking.</li>
+                <li><strong>Shift Scheduling:</strong> Create and manage officer schedules. Assign shifts to departments or units. Display officer availability in real-time.</li>
+                <li><strong>Budget and Resource Planning:</strong> Track department expenses (vehicle repairs, equipment purchases). Record revenue from citations or fines. Generate financial reports for server staff.</li>
+                <li><strong>Custom Uniform Management:</strong> Store uniform combinations for different ranks/units. Quick reference for server-specific clothing items.</li>
+                <li><strong>Server Rules Violations:</strong> Log and track rule violations by officers. Assign corrective actions or disciplinary measures.</li>
+                <li><strong>SnailyCAD API Integration:</strong> Sync officer rosters, incident reports, and vehicles. Update SnailyCAD directly from the website. Fetch live data like active calls or assigned cases.</li>
+                <li><strong>Discord Integration:</strong> Post automated updates to a Discord channel (e.g., new cases, patrol logs). Use Discord OAuth for officer login. Sync officer roles and permissions with Discord server roles.</li>
+                <li><strong>Steam/License Linking:</strong> Link officer profiles to their Steam or license identifiers. Verify server access based on linked accounts.</li>
+                <li><strong>Webhook Support:</strong> Trigger webhooks for key events (e.g., case creation, officer login). Integrate with third-party tools like Discord or Slack.</li>
+                <li><strong>Multi-Department Support:</strong> Separate interfaces for police, EMS, and fire departments. Assign permissions based on department roles. Unified view for server admins.</li>
+                <li><strong>Role-Based Access Control:</strong> Admins, supervisors, officers, and recruits with different permissions. Customizable access levels for specific features.</li>
+                <li><strong>Authentication:</strong> Secure login system (email, Discord OAuth, or custom credentials). Two-factor authentication (2FA) for admins and supervisors.</li>
+                <li><strong>Profile Management:</strong> Allow officers to update their details (contact info, certifications). Admin view of all profiles with edit access.</li>
+                <li><strong>Activity Reports:</strong> Weekly/monthly activity summaries for officers. Breakdown of patrol hours, calls responded to, and citations issued.</li>
+                <li><strong>Incident Trends:</strong> Analytics on common crimes, busy patrol areas, or frequent offenders. Use graphs and charts for visualization.</li>
+                <li><strong>Training Progress:</strong> Track department-wide training completion rates. Identify officers needing additional training.</li>
+                <li><strong>Financial Reports:</strong> Revenue generated from fines. Expenses on vehicles, equipment, and training.</li>
             </ul>
         </section>
 
@@ -54,17 +72,17 @@
         <section class="mb-8">
             <h2 class="text-2xl font-semibold mb-4">Estimated Development Timeline</h2>
             <ul class="list-disc ml-6 space-y-2">
-                <li><strong>Planning and Design:</strong> TBD weeks</li>
-                <li><strong>Core Features Development:</strong> TBD weeks</li>
-                <li><strong>Advanced Features:</strong> TBD weeks</li>
-                <li><strong>Integration with SnailyCAD:</strong> TBD weeks</li>
-                <li><strong>Testing and Deployment:</strong> TBD weeks</li>
-                <li><strong>Total Estimate:</strong> TBD months</li>
+                <li><strong>Planning and Design:</strong> 1-2 weeks</li>
+                <li><strong>Core Features Development:</strong> 6-8 weeks</li>
+                <li><strong>Advanced Features:</strong> 4-6 weeks</li>
+                <li><strong>Integration with SnailyCAD:</strong> 3-5 weeks</li>
+                <li><strong>Testing and Deployment:</strong> 2-3 weeks</li>
+                <li><strong>Total Estimate:</strong> 5-8 months</li>
             </ul>
         </section>
 
         <footer class="text-center text-gray-500">
-            <p>&copy; 2025 Swift-Advanced-SNA-CMS Management Team. All rights reserved.</p>
+            <p>&copy; 2025 FiveM Server Management Team. All rights reserved.</p>
         </footer>
     </div>
 </body>
