@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swift Advanced SNA CMS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <header class="bg-gray-800 py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Swift Advanced SNA CMS</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-10 px-4">
+        <section class="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Manage Your Data with Ease</h2>
+            <p class="mb-4">
+                Swift Advanced SNA CMS is an innovative, free-to-use website designed to help you manage and modify critical data, such as call signs, with ease. If your server handles a high flow of users, this tool could be perfect for streamlining your operations.
+            </p>
+            <p class="mb-4">
+                Say goodbye to outdated spreadsheets or Excel files. With Swift Advanced SNA CMS, you can centralize and manage vital information efficiently. In the future, you'll be able to track and manage details such as:
+            </p>
+            <ul class="list-disc list-inside space-y-2">
+                <li><strong>Ranks:</strong> Easily update and organize your team’s hierarchy.</li>
+                <li><strong>Officers' Details:</strong> Keep track of callsigns, names, and departments.</li>
+                <li><strong>Strikes:</strong> Log disciplinary actions effortlessly.</li>
+                <li><strong>Patrol Time:</strong> Monitor weekly or monthly patrol hours.</li>
+            </ul>
+            <p class="mt-4">
+                And so much more! Discover how Swift Advanced SNA CMS can transform your workflow.
+            </p>
+        </section>
+
+        <section class="mt-8 text-center">
+            <a href="https://sna-cms.swiftpeakhosting.com" class="bg-teal-500 hover:bg-teal-400 text-white font-bold py-2 px-6 rounded-lg shadow-md">Try Swift Advanced SNA CMS Today</a>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 py-4 mt-10 text-center">
+        <p>&copy; 2025 Swift Advanced SNA CMS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
